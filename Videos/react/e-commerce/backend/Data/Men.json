@@ -1,0 +1,8 @@
+{
+    "products":[
+        {"name":"iyin","age":2},
+        {"name":"ire","age":4},
+        {"name":"victor","age":5},
+        {"name":"akinpelumi","age":7}
+    ]
+}

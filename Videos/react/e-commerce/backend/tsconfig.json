@@ -3,11 +3,13 @@
     "target": "ES6",
     "module": "CommonJS",
     "strict": true,
-    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
-    "rootDir": "."   // Set the root directory to the current folder
+    "rootDir": "." ,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"]  // Set the root directory to the current folder
   },
   "include": ["*.ts"]  // Include all .ts files in the root folder
 }
