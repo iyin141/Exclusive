@@ -1,8 +1,8 @@
 {
     "products":[
-        {"name":"iyin","age":2},
-        {"name":"ire","age":4},
-        {"name":"victor","age":5},
-        {"name":"akinpelumi","age":7}
+        {"name":"iyin","price":5 , "img":"/assets/three.png"},
+        {"name":"ire","price":4, "img":"/assets/three.png"},
+        {"name":"victor","price":5 , "img":"/assets/three.png"},
+        {"name":"akinpelumi","price":7 , "img":"/assets/three.png"}
     ]
 }

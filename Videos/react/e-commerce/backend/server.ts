@@ -4,9 +4,10 @@ import path from 'path';
 import { promises as fs } from 'fs';
 
 const paths = [
-  { file: 'Men.json', path: '/men' },
-  { file: 'Women.json', path: '/women' },
-  { file: 'baby.json', path: '/kids' }
+  { file: "Men.json", path: '/men' },
+  { file: "Women.json", path: '/women' },
+  { file: "baby.json", path: '/kids' },
+  {file:"Flash.json",path:'/flash'}
 ];
 
 
@@ -27,8 +28,10 @@ app.post("/",(req,res) => {
 
 async function processFile(file: string): Promise<object[]> {
   try {
-    const data = await fs.readFile(file, 'utf8');
-    return JSON.parse(data);
+    const filePath = path.join(__dirname, "Data", file);
+    const data = await fs.readFile(filePath, 'utf8');
+    const parsed = JSON.parse(data);
+    return parsed.products || [];
   } catch (error) {
     console.error(`Error reading ${file}:`, error);
     throw new Error(`Failed to read file: ${file}`);
@@ -41,6 +44,7 @@ paths.forEach(({ file, path }) => {
     try {
       const data = await processFile(file);
       res.json(data);
+   
     } catch (error) {
       if (error instanceof Error) {
         res.status(500).json({ success: false, message: error.message });
