@@ -1,9 +1,9 @@
 {
     "products":[
         {"name":"iyi","price":100, "discount_price":80 , "img":"/assets/three.png" , "rating" : 4 , "id":1},
-        {"name":"ire","price":400, "discount_price":5, "img":"/assets/three.png"  ,"rating" : 4 , "id":2},
-        {"name":"victor","price":500 , "discount_price":5 , "img":"/assets/three.png" ,"rating" : 4 , "id":3},
-        {"name":"akinpelumi","price":700 , "discount_price":5,  "img":"/assets/three.png" ,"rating" : 4 , "id":4},
+        {"name":"ire","price":400, "discount_price":5, "img":"/assets/three.png"  ,"rating" : 4.5 , "id":2},
+        {"name":"victor","price":500 , "discount_price":5 , "img":"/assets/three.png" ,"rating" : 3.5 , "id":3},
+        {"name":"akinpelumi","price":700 , "discount_price":5,  "img":"/assets/three.png" ,"rating" : 2 , "id":4},
         {"name":"iyi","price":500, "discount_price":5 , "img":"/assets/three.png" ,"rating" : 4 , "id":5},
         {"name":"ire","price":400, "discount_price":5, "img":"/assets/three.png" ,"rating" : 4 , "id":6},
         {"name":"victor","price":500 , "discount_price":5 , "img":"/assets/three.png" ,"rating" : 4 , "id":7},

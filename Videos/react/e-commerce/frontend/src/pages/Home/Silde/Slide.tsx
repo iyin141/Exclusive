@@ -27,8 +27,8 @@ const Slide = () => {
           <div key={image.id}  style={{ zIndex: image.id + 1 }} className={`transition-opacity duration-1000 ${
               i === index ? "opacity-100" : "opacity-0"
             }`}>
-             <img src={image.path} className={`absolute inset-0 w-[100%] max-w-[100%] md:h-[96%]  pt-7 md:pl-8 `} alt=""/>
-            <a href={image.link} className={`${`z-[${image.id + 1}] absolute `} text-white flex gap-x-3 lg:pl-[5%] md:pl-[4%] md:pt-[11.5rem] lg:pt-[26%]  `}> <span className="border-b-1 border-white "> Shop now</span>  <img src={arrow} className=" w-[1.2rem] h-[1.5rem] pt-2 " alt="" /> </a>
+             <img src={image.path} className={`absolute inset-0 w-[100%] max-w-[100%] md:h-[88%] lg:h-[96%] pt-7 md:pl-4 lg:pl-10 `} alt=""/>
+            <a href={image.link} className={`${`z-[${image.id + 1}] absolute `} text-white flex gap-x-3 lg:pl-[6%] md:pl-[1.2%] md:pt-[11.5rem] lg:pt-[28%]  `}> <span className="border-b-1 border-white "> Shop now</span>  <img src={arrow} className=" w-[1.2rem] h-[1.5rem] pt-2 " alt="" /> </a>
          </div>
         ))}
       </div>

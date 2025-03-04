@@ -15,13 +15,13 @@ const Routes = () => {
   return (
     <div className="flex  ">
       <div  >
-      <ul className="pt-7 lg:pr-[5rem] md:pr-[2rem]">
+      <ul className="pt-6 lg:pr-[5rem] md:pr-[1rem]">
       {data.map((data) =>
           <li className=" xl:pb-[0.60rem] md:pb-1 whitespace-nowrap flex "><a href="#"><span className="block w-[10rem] pt-1 ">{data.name}</span></a><span className={ `font-bold text-[1.3rem]    ${data.id == "yes" ? "text-bold" : "hidden"}`}>{'>'}</span></li>
         )} 
         </ul>
       </div>
-      <span className="border-r-1 border-[#B6B6B6] h-[96%] "></span>
+      <span className="border-r-1 border-[#B6B6B6] md:h-[90%] lg:h-[96%] "></span>
     </div>
   )
 }
