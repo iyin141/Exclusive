@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Stars from "../../../components/Stars";
 import Timer from "../../../components/Timer";
 import Move from "../../../components/Move";
+import Header from "../../../components/Header";
 
 
 interface User {
@@ -42,13 +43,9 @@ const Two = () => {
 
   return (
     <div className="xl:pl-[2rem] pr-[2rem] md:pl-[2rem] pt-[7rem] pb-12 ">
-              <div className="block pb-8">
-                <h1 className="pb-6 text-[#EF4444]"><span className="bg-[#EF4444]  pt-2 pb-2 pr-2 pl-2 rounded-[3.5px]">.</span> <span className="pl-2 font-bold">Today's</span></h1>
-                <div className="flex gap-[5rem]">
-                <h1 className="text-[2.3rem] font-bold pt-5  ">Flash Sales </h1>
-                <Timer /> 
-              </div>
-              </div>
+            <Header Big="Flash Sales" Small="Today's">
+               <span className="pt-2"> <Timer check={0}></Timer></span>
+             </Header>
       <div className="pb-12">
               <Move >
               <ul className="flex gap-5 pb-10 min-w-max">

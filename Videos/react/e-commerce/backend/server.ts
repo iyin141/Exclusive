@@ -7,7 +7,8 @@ const paths = [
   { file: "Men.json", path: '/men' },
   { file: "Women.json", path: '/women' },
   { file: "baby.json", path: '/kids' },
-  {file:"Flash.json",path:'/flash'}
+  { file: "Flash.json", path: '/flash' },
+  {file:"Best.json",path:'/best'}
 ];
 
 
