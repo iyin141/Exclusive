@@ -24,7 +24,7 @@ const categories = [
 
 export default function CategoryIcons() {
   return (
-    <div className="lg:pl-[4rem] md:pl-[3rem] pt-[3rem] pb-12 bg-white">
+    <div className="lg:pl-[4rem] md:pl-[3rem] pt-[3rem] max-sm:pl-[1rem] max-sm:pr-[1rem] pb-12 bg-white overflow-hidden ">
       <Header Small="Categories" Big="Browse By Category"></Header>
       <div className="w-[95%] overflow-hidden">
       <Move> 

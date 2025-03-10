@@ -21,14 +21,14 @@ const Slide = () => {
   }, []);
 
   return (
-    <div className="pt-12 pl-12 relative z-0 w-[80%]">
+    <div className="md:pt-12 md:pl-12 max-sm:pl-6 relative z-0 w-[80%] max-sm:w-[100%] max-sm:h-[15rem] ">
       <div className="max-h-[100%]">
         {images.map((image, i) => (
           <div key={image.id}  style={{ zIndex: image.id + 1 }} className={`transition-opacity duration-1000 ${
               i === index ? "opacity-100" : "opacity-0"
             }`}>
-             <img src={image.path} className={`absolute inset-0 w-[100%] max-w-[100%] md:h-[88%] lg:h-[96%] pt-7 md:pl-4 lg:pl-10 `} alt=""/>
-            <a href={image.link} className={`${`z-[${image.id + 1}] absolute `} text-white flex gap-x-3 lg:pl-[6%] md:pl-[1.2%] md:pt-[11.5rem] lg:pt-[28%]  `}> <span className="border-b-1 border-white "> Shop now</span>  <img src={arrow} className=" w-[1.2rem] h-[1.5rem] pt-2 " alt="" /> </a>
+             <img src={image.path} className={`absolute inset-0 w-[100%] max-w-[100%] md:h-[88%] lg:h-[96%] max-sm:h-[100%] pt-7 md:pl-4 lg:pl-10 `} alt=""/>
+            <a href={image.link} className={`${`z-[${image.id + 1}] absolute `} text-white flex gap-x-3 lg:pl-[6%] md:pl-[1.2%] md:pt-[11.5rem] lg:pt-[28%] max-sm:pt-[55%] `}> <span className="border-b-1 border-white "> Shop now</span>  <img src={arrow} className=" w-[1.2rem] h-[1.5rem] pt-2 " alt="" /> </a>
          </div>
         ))}
       </div>

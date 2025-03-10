@@ -42,13 +42,13 @@ const Two = () => {
   }, []);
 
   return (
-    <div className="xl:pl-[2rem] pr-[2rem] md:pl-[2rem] pt-[7rem] pb-12 ">
+    <div className="xl:pl-[2rem] pr-[2rem] md:pl-[2rem] pt-[7rem] pb-12 max-sm:pl-[1rem] max-sm:pr-[1rem]  overflow-hidden">
             <Header Big="Flash Sales" Small="Today's">
-               <span className="pt-2"> <Timer check={0}></Timer></span>
+               <span className="pt-2 overflow-hidden"> <Timer check={0}></Timer></span>
              </Header>
       <div className="pb-12">
               <Move >
-              <ul className="flex gap-5 pb-10 min-w-max">
+              <ul className="flex gap-5 pb-10 min-w-max overflow-hidden ">
                 {data.map((user) => (
                   <li key={user.id}> 
                     <div className="bg-[#F3F1F1] h-[14rem] w-[16rem] group">
