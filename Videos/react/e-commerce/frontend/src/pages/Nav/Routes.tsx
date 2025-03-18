@@ -3,7 +3,7 @@
 const Routes = () => {
   return (
       <div>
-          <ul className="flex gap-x-10 max-sm:gap-x-5  max-sm:pb-4 max-sm:pl-8   pt-1 text-center">
+          <ul className="flex gap-x-10 max-sm:gap-x-5  max-sm:pb-4    pt-1 text-center max-sm:justify-center max-sm:items-center">
               <li className="border-b-1">Home</li>
               <li>Contact</li>
               <li>About</li>

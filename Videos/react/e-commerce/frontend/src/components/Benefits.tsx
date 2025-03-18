@@ -1,6 +1,6 @@
-import fast from "/assets/fast.png"
-import customer from "/assets/customer.png"
-import money from "/assets/money.png"
+import fast from "/assets/Benefits/fast.png"
+import customer from "/assets/Benefits/customer.png"
+import money from "/assets/Benefits/money.png"
 
 
 const data = [

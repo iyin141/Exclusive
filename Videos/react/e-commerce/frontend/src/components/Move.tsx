@@ -1,6 +1,6 @@
 import { ReactNode, useState } from "react";
-import arrow from "/assets/arrow-left.png"
-import arrowr from "/assets/arrow-right.png"
+import arrow from "/assets/Components/arrow-left.png"
+import arrowr from "/assets/Components/arrow-right.png"
 type Props = {
     children: ReactNode;
 }

@@ -1,5 +1,5 @@
 import Header from "../../../components/Header"
-import Benefits from "./Benefits"
+import Benefits from "../../../components/Benefits"
 import One from "./One"
 import Two from "./Two"
 

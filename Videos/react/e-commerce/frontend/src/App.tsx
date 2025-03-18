@@ -1,11 +1,21 @@
 import Nav from "./pages/Nav/Nav"
-import { Home } from "./pages/Home/Home"
-import Footer from "./pages/Footer/Footer"
+import Footer from "./pages/Footer/Index"
+import { BrowserRouter, useRoutes } from "react-router-dom";
+import routes from "~react-pages";
+
+
+const AppRoutes = () => {
+  console.log("Generated Routes:", routes); // Debugging output
+  return useRoutes(routes);
+};
+
 const App = () => {
   return (
     <div className="p-0 font-Epilogue  ">
+      <BrowserRouter>
       <Nav />
-      <Home />
+      <AppRoutes />
+      </BrowserRouter>
       <Footer />
     </div>
   )

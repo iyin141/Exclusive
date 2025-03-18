@@ -1,4 +1,4 @@
-import ps5 from "/assets/ps5.png"
+import ps5 from "/assets/Home/ps5.png"
 const p = "font-light text-[0.8rem] w-[15rem] ";
 const a ="block w-[100%] h-[100%]"
 const One = () => {

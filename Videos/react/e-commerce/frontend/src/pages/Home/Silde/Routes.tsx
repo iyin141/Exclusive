@@ -21,7 +21,8 @@ const Routes = () => {
         )} 
         </ul>
       </div>
-      <span className="border-r-1 border-[#B6B6B6] md:h-[90%] lg:h-[96%] max-sm:hidden"></span>
+      <span className="border-r border-[#B6B6B6] h-full md:h-[18rem] lg:h-[22rem] max-sm:hidden"></span>
+
     </div>
   )
 }

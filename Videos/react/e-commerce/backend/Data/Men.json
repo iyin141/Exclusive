@@ -1,8 +1,8 @@
 {
     "products":[
-        {"name":"iyin","price":5 , "img":"/assets/three.png"},
-        {"name":"ire","price":4, "img":"/assets/three.png"},
-        {"name":"victor","price":5 , "img":"/assets/three.png"},
-        {"name":"akinpelumi","price":7 , "img":"/assets/three.png"}
+        {"name":"iyin","price":5 , "img":"/assets/Products/Tech/three.png"},
+        {"name":"ire","price":4, "img":"/assets/Products/Tech/three.png"},
+        {"name":"victor","price":5 , "img":"/assets/Products/Tech/three.png"},
+        {"name":"akinpelumi","price":7 , "img":"/assets/Products/Tech/three.png"}
     ]
 }

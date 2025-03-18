@@ -1,6 +1,6 @@
-import women from "/assets/women.png"
-import speaker from "/assets/speaker.png"
-import perfume from "/assets/perfume.png"
+import women from "/assets/Home/women.png"
+import speaker from "/assets/Home/speaker.png"
+import perfume from "/assets/Home/perfume.png"
 
 const p = "font-light text-[0.8rem] w-[15rem]  max-sm:w-[15rem]";
 const a = "pt-5  font-light border-b-1 w-[4.8rem]"
