@@ -5,7 +5,7 @@ import routes from "~react-pages";
 
 
 const AppRoutes = () => {
-  console.log("Generated Routes:", routes); // Debugging output
+  // Debugging output
   return useRoutes(routes);
 };
 
